@@ -44,50 +44,38 @@
               </div>
             <div class="row" id="sandbox">
                 <div class="col-md-3" id="box">
-                    
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Link 1</a></li>
-                        <li><a class="dropdown-item" href="#">Link 2</a></li>
-                        <li><a class="dropdown-item" href="#">Link 3</a></li>
-                    </ul>
+                  <form class="d-flex my-3" onsubmit="return false;" role="search">
+                    <select id="search-area" class="form-select me-2">
+                      <option value="1" selected>현재 지도 기준</option>
+                    </select>
+                    <select id="search-content-id" class="form-select me-2">
+                      <option value="12">관광지</option>
+                      <option value="14">문화시설</option>
+                      <option value="15">축제공연행사</option>
+                      <option value="25">여행코스</option>
+                      <option value="28">레포츠</option>
+                      <option value="32">숙박</option>
+                      <option value="38">쇼핑</option>
+                      <option value="39">음식점</option>
+                    </select>
+                    <select id="search-distance" class="form-select me-2">
+                      <option value="1000" selected>1km 이내</option>
+                      <option value="5000" >5km 이내</option>
+                      <option value="10000">10km 이내</option>
+                      <option value="200000">20km 이내</option>
+                    </select>
+                    <button id="btn-search" class="btn btn-outline-success" type="button">검색</button>
+                  </form>
+                   <div class="candidateBox" id="box"> 
+
+                   </div>
                 </div>
                 <div class="col-md-6">
                     <div id="map" style="width:100%;height:800px;"></div>
                 </div>
-                <div class="col-md-3" id="box">
-                    <div class="draggable" draggable="true" id="card">
-                        <div class="detail">
-                            <h5>나무식탁</h5>
-                            <h6>11:30~16:00</h6>
-                            <h6>매주 일, 월, 목 휴무</h6>
-                        </div>
-                        <img  class="thumbnail"src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180919_216%2F1537331549088Obm9x_JPEG%2Fu137sEpRoAwnQ3AM2B8yjpC4.jpeg" />
-                    </div>
-                    <div class="draggable" draggable="true" id="card">
-                        <div class="detail">
-                            <h5>나무식탁</h5>
-                            <h6>11:30~16:00</h6>
-                            <h6>매주 일, 월, 목 휴무</h6>
-                        </div>
-                        <img  class="thumbnail"src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180919_216%2F1537331549088Obm9x_JPEG%2Fu137sEpRoAwnQ3AM2B8yjpC4.jpeg" />
-                    </div>
-                    <div class="draggable" draggable="true" id="card">
-                        <div class="detail">
-                            <h5>나무식탁</h5>
-                            <h6>11:30~16:00</h6>
-                            <h6>매주 일, 월, 목 휴무</h6>
-                            
-                        </div>
-                        <img  class="thumbnail"src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180919_216%2F1537331549088Obm9x_JPEG%2Fu137sEpRoAwnQ3AM2B8yjpC4.jpeg" />
-                    </div>
-                    <div class="draggable" draggable="true" id="card">
-                        <div class="detail">                           
-                            <h5>나무식탁</h5>
-                            <h6>11:30~16:00</h6>
-                            <h6>매주 일, 월, 목 휴무</h6>
-                        </div>
-                        <img  class="thumbnail"src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180919_216%2F1537331549088Obm9x_JPEG%2Fu137sEpRoAwnQ3AM2B8yjpC4.jpeg" />
-                    </div>
+                <div class="col-md-3 resultBox" id="box">
+                  
+                    
                    
 
                    
@@ -108,16 +96,10 @@
     <!-- footer -->
    
     <!-- footer 끝 -->
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=	db5c9f095b955406fbbeed1a57f27d61"></script>
     <script src="planning.js"></script>
-    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=	db5c9f095b955406fbbeed1a57f27d61"></script>    <script>
-var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
-    mapOption = { 
-        center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
-        level: 3 // 지도의 확대 레벨
-    };
+    
 
-// 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
-var map = new kakao.maps.Map(mapContainer, mapOption); 
 </script>
 </body>
 </html>

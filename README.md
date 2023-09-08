@@ -3,6 +3,7 @@
 # Index
 
 ## 1. 로그인 / 로그 아웃
+![image](https://github.com/dev1week/with-dog/assets/119592507/4cc2b7a1-f0f7-40d0-b43b-56e4ca5fdb8f)
 
 - 회원 로그인 로그 아웃 기능 구현
 
@@ -11,65 +12,67 @@
 # Sign-Up
 
 ## 2. 회원 가입
+![image](https://github.com/dev1week/with-dog/assets/119592507/8cfa62ce-5144-4619-8043-70ed181bb1d5)
 
 - 회원가입 기능 구현 및 local storage 이용, 간단한 인증 로직 구현
 
 # MyPage
 
 ## 3. 회원 수정, 조회, 탈퇴
+![image](https://github.com/dev1week/with-dog/assets/119592507/c2a1a4fe-39be-4c44-b2f8-35e4460ff7fa)
 
 - 회원 정보 관리 가능, local storage 이용 회원 기본 crud 제공
 
 # findPW
 
 ## 4. 비빌번호 찾기
+![image](https://github.com/dev1week/with-dog/assets/119592507/fb5d4751-2707-4e72-a1d7-18073d6d409d)
 
 - local storage 이용 기본 비밀번호 찾기 제공
 
 # board
-
-## 5. 공지 게시판
-
-- local storage 이용 공지 게시판 기능 구현
-
 ## 6. 공유게시판
+![image](https://github.com/dev1week/with-dog/assets/119592507/f38f33d9-15c7-4d27-a613-e2e6e7bdc549)
+![image](https://github.com/dev1week/with-dog/assets/119592507/41511f22-34b2-480e-a5f0-041103f56066)
 
 - local storage 이용 공유 게시판 기능 구현
 
 # Local
 
 ## 7.관심 지역 선택하기
+![image](https://github.com/dev1week/with-dog/assets/119592507/e831aecd-bda9-4bd9-beab-98bede106e68)
 
 # Planing
 
 ## 8. 지역별 관광지 정보 검색
+![image](https://github.com/dev1week/with-dog/assets/119592507/656d6416-bfeb-434b-b54f-729cf048d84b)
+![image](https://github.com/dev1week/with-dog/assets/119592507/9eaa5129-3005-4b8a-92fe-2f211e26aab5)
 
-![옵션조회.png](./%E1%84%80%E1%85%AA%E1%86%AB%E1%84%90%E1%85%A9%E1%86%BC%2025b9ba2b314b4fafa42f9b6045660497/%25EC%2598%25B5%25EC%2585%2598%25EC%25A1%25B0%25ED%259A%258C.png)
 
-![거리 조회.png](./%E1%84%80%E1%85%AA%E1%86%AB%E1%84%90%E1%85%A9%E1%86%BC%2025b9ba2b314b4fafa42f9b6045660497/%25EA%25B1%25B0%25EB%25A6%25AC_%25EC%25A1%25B0%25ED%259A%258C.png)
 
 - 관광지를 거리 옵션을 설정하여 검색 가능
 - 현재 지도 중심 좌표(local 페이지에서 선택한 지역을 자동으로 넘겨줌)을 기준으로 [카테고리] 및 최대 거리 옵션을 주어 검색
 
 ## 9. 검색 결과 지도 마킹
+![image](https://github.com/dev1week/with-dog/assets/119592507/d53bf12d-5b6d-426b-9c40-e6cf7ac49777)
 
-![조회 결과.png](./%E1%84%80%E1%85%AA%E1%86%AB%E1%84%90%E1%85%A9%E1%86%BC%2025b9ba2b314b4fafa42f9b6045660497/%25EC%25A1%25B0%25ED%259A%258C_%25EA%25B2%25B0%25EA%25B3%25BC.png)
 
 - 검색 후 결과 지도 마킹 기능
 
 ## 10. 검색결과 표시 후 드래그 하여 계획에 포함
+![Screen Recording - Sep 8, 2023](https://github.com/dev1week/with-dog/assets/119592507/a4c019a7-1ff4-4c67-999a-ba561d25e91e)
+![image](https://github.com/dev1week/with-dog/assets/119592507/bb6f1346-74e7-4712-8e77-80c1a800fa32)
+![image](https://github.com/dev1week/with-dog/assets/119592507/582a7764-ee92-4e73-9e70-fef5d4e6bb95)
 
-![Screen Recording - Sep 8, 2023.gif](./%E1%84%80%E1%85%AA%E1%86%AB%E1%84%90%E1%85%A9%E1%86%BC%2025b9ba2b314b4fafa42f9b6045660497/Screen_Recording_-_Sep_8_2023.gif)
 
-![원하는 장소 계획 탭에 담기.png](./%E1%84%80%E1%85%AA%E1%86%AB%E1%84%90%E1%85%A9%E1%86%BC%2025b9ba2b314b4fafa42f9b6045660497/%25EC%259B%2590%25ED%2595%2598%25EB%258A%2594_%25EC%259E%25A5%25EC%2586%258C_%25EA%25B3%2584%25ED%259A%258D_%25ED%2583%25AD%25EC%2597%2590_%25EB%258B%25B4%25EA%25B8%25B0.png)
 
-![다른 카테고리 저장 후 계획 변경하기.png](./%E1%84%80%E1%85%AA%E1%86%AB%E1%84%90%E1%85%A9%E1%86%BC%2025b9ba2b314b4fafa42f9b6045660497/%25EB%258B%25A4%25EB%25A5%25B8_%25EC%25B9%25B4%25ED%2585%258C%25EA%25B3%25A0%25EB%25A6%25AC_%25EC%25A0%2580%25EC%259E%25A5_%25ED%259B%2584_%25EA%25B3%2584%25ED%259A%258D_%25EB%25B3%2580%25EA%25B2%25BD%25ED%2595%2598%25EA%25B8%25B0.png)
 
 - 검색 후 좌측 화면에 검색 결과 표현
 - 마음에 드는 지역을 드래그하여 계획에 추가가능
 
 ## 11. 여행 계획 경로 설정 (계획은 로컬스토리지 저장)
+![image](https://github.com/dev1week/with-dog/assets/119592507/849bcf7e-9e73-4054-9f2b-7aca2070f23a)
 
-![로컬 스토리지 저장.png](./%E1%84%80%E1%85%AA%E1%86%AB%E1%84%90%E1%85%A9%E1%86%BC%2025b9ba2b314b4fafa42f9b6045660497/%25EB%25A1%259C%25EC%25BB%25AC_%25EC%258A%25A4%25ED%2586%25A0%25EB%25A6%25AC%25EC%25A7%2580_%25EC%25A0%2580%25EC%259E%25A5.png)
+
 
 - 오른쪽 상단에 계획으로 넣어놓은 장소는 이름과 주소를 배열로 저장하여 **local storage에 저장**
